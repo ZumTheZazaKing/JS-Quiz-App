@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+#titleQuestion{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Raleway-bold';
+}
+
+#userAnswer{
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+#outcome{
+    font-size: 22px;
+    font-family: 'Raleway';
+    margin-bottom: 50px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Quicksand';
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+
+#startButton{
+    color: skyblue;
+    border: 2px solid skyblue;
+}
+
+#startButton:hover,
+#startButton:active{
+    color: white;
+    background-color: skyblue;
+}
+
+#confirmAnswerButton{
+    color: orange;
+    border: 2px solid orange;
+}
+
+#confirmAnswerButton:hover,
+#confirmAnswerButton:active{
+    color: white;
+    background-color: orange;
+}
+
+#nextQuestionButton{
+    color: purple;
+    border: 2px solid purple;
+}
+
+#nextQuestionButton:hover,
+#nextQuestionButton:active{
+    color: white;
+    background-color: purple;
+}
+
+#playAgainButton{
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+#playAgainButton:hover
+#playAgainButton:active{
+    color: white;
+    background-color: crimson;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    #container{
+        width: 300px;
+        margin-top: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
+
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
+}
+
+.hidden{
+    visibility: hidden;
+}
